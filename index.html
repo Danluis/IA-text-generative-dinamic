@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buscador de Palabras Predictivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="main">
+
+      <div class="wordsStorage">
+        <form action="" class="words-container">
+          <img src="/assets/knowledge.png" alt="">
+          <textarea id="text-area-principal" class="text-area" placeholder="Palabra principal"></textarea>
+          <textarea id="text-area-secundaria-1" class="text-area" placeholder="Palabra secundaria"></textarea>
+          <textarea id="text-area-secundaria-2" class="text-area" placeholder="Palabra secundaria"></textarea>
+          <textarea id="text-area-secundaria-3" class="text-area" placeholder="Palabra secundaria"></textarea>
+          <button class="button-storage">Ingresar</button>
+        </form>
+        </div>
+
+      <div class="container">
+            <img src="/assets/textGenerative.png" alt="logo-b">
+  <textarea id="text-area" class="text-area" placeholder="Escribe algo, por ejemplo hola"></textarea>
+  <div id="suggested-words"></div>
+  <div id="keyboard">
+    <button onclick="addCharacter('Q')">Q</button>
+    <button onclick="addCharacter('W')">W</button>
+    <button onclick="addCharacter('E')">E</button>
+    <button onclick="addCharacter('R')">R</button>
+    <button onclick="addCharacter('T')">T</button>
+    <button onclick="addCharacter('Y')">Y</button>
+    <button onclick="addCharacter('U')">U</button>
+    <button onclick="addCharacter('I')">I</button>
+    <button onclick="addCharacter('O')">O</button>
+    <button onclick="addCharacter('P')">P</button>
+    <br>
+    <br>
+    <button onclick="addCharacter('A')">A</button>
+    <button onclick="addCharacter('S')">S</button>
+    <button onclick="addCharacter('D')">D</button>
+    <button onclick="addCharacter('F')">F</button>
+    <button onclick="addCharacter('G')">G</button>
+    <button onclick="addCharacter('H')">H</button>
+    <button onclick="addCharacter('J')">J</button>
+    <button onclick="addCharacter('K')">K</button>
+    <button onclick="addCharacter('L')">L</button>
+    <button onclick="addCharacter('Ñ')">Ñ</button>
+    <br>
+    <br>
+    <button onclick="addCharacter('Z')">Z</button>
+    <button onclick="addCharacter('X')">X</button>
+    <button onclick="addCharacter('C')">C</button>
+    <button onclick="addCharacter('V')">V</button>
+    <button onclick="addCharacter('B')">B</button>
+    <button onclick="addCharacter('N')">N</button>
+    <button onclick="addCharacter('M')">M</button>
+    <!-- Resto de las teclas del teclado -->
+  </div>
+</div>
+
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
