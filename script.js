@@ -17,7 +17,8 @@ let words = {
   let timerId;
   
   function suggestWords() {
-    words = JSON.parse(localStorage.getItem('storage'))
+    words = JSON.parse(localStorage.getItem('storage')) || words;
+
     const textArea = document.getElementById("text-area");
     const currentText = textArea.value.trim();
     const lastWord = currentText.split(" ").pop().toLowerCase();
