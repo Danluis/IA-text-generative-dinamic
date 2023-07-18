@@ -4,3 +4,21 @@
 
 
 link Pagina: https://danluis.github.io/IA-text-generative-dinamic/
+
+Knowlegde Base:
+
+words = {
+    hola: ["Juan", "Maria", "Pedro"],
+    monitor: ["hd", "gamer", "144hz"],
+    animal: ["planet", "crossing", "con c"],
+    mouse: ["pad", "gamer", "logitech"],
+    televisor: ["tcl", "samsung", "lg"],
+    el: ["alfa", "nacional", "principito"],
+    lamborghini: ["urus", "veneno", "diablo"],
+    tesla: ["model s", "model 3", "cybertruck"],
+    tennis: ["nike", "pumas", "jordan"],
+    xbox: ["game pass", "one", "live"],
+    platzi: ["cursos", "day", "jobs"],
+    javascript: ["fullStack", "frontend", "backend"],
+    computadora: ["hp","lenovo","dell"]
+  };
