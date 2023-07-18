@@ -47,14 +47,12 @@ let words = {
     const textArea = document.getElementById("text-area");
     textArea.value += character;
     textArea.focus();
-    suggestWords();
-    clearTimeout(timerId);
+    setTimeout(suggestWords,1000)
     timerId = setTimeout(suggestWords, 1000);
   }
   
   document.getElementById("text-area").addEventListener("keyup", () => {
-    suggestWords();
-    clearTimeout(timerId);
+    setTimeout(suggestWords,1000)
     timerId = setTimeout(suggestWords, 1000);
   });
   
