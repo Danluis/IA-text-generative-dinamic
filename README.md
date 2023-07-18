@@ -1,0 +1,1 @@
+# IA-text-generative-dinamic
